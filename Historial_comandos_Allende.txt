@@ -1,0 +1,339 @@
+pwd
+ls
+ls -l
+ls -la
+cd repogit
+pwd
+ls
+ls -l
+ls -la
+ls -a
+cd /
+pwd
+ls -l
+cd etc
+ls -la
+cd passwd
+cat passwd
+man pwd
+cd ..
+cd home/
+cd vagrant/
+cd .
+cd vagrant
+ls
+cd repogit
+cd vagrant
+cd ls
+ls
+cd $home
+pwd
+help
+help ls
+apropos -ls
+apropos --help
+pwd
+vagrant status
+history
+pwd
+vagrant halt
+pwd
+ls
+ls -l
+cat README
+cat << FIN
+linea1
+linea2
+linea3
+FIN
+
+cat << FIN > clase3.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+ls
+pwd
+ls -l
+cat << FIN > clase3.txt
+linea 4
+linea 5
+FIN
+
+cat clase3.txt
+cat << FIN >> clase3.txt
+linea 6
+linea 7
+linea 8
+FIN
+
+cat clase3.txt
+cd carpeta compartida/
+pwd
+ls
+cd carpeta_compartida/
+ls
+history
+history > historial.txt
+ls
+echo "hola"
+cat historial.txt
+echo "hola" >> historial.txt 
+cat historial.txt 
+man bc
+bc <<< 1+2
+cd ..
+ls
+cat clase3.txt
+echo "hola mundo"
+echo "hola mundo" \ wc
+echo "hola mundo" | wc
+cat clase3.txt | tail -n2
+vagrant halt
+vagrant --help
+-help
+help
+pwd
+ls history
+vagrant history
+vagrant halt
+pwd
+ls
+vagrant --help
+vagrant ssh
+pwd
+ls
+mkdir clases
+ls -l
+cd clases/
+ls
+cd ..
+ls -l
+mc vlase3.txt clases
+cd clases/
+ls
+ls -l
+cd ..
+ls
+mv vlase3.txt clases
+mv clase3.txt clases
+cd clases/
+ls
+mv clase3.txt clase5.txt
+ls
+cat clase5.txt 
+cp clase5.txt ..
+ls
+cd ..
+ls -l
+ls
+cp clases/ repogit/
+cp -R clases/ repogit/
+ls
+cd repogit/
+ls
+cd clases/
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+rm clase5.txt
+ls
+cd repogit/
+ls
+rm clases/
+rm -r clases/
+ls
+rmdir clases/
+rm -r clases/
+ls
+cd /
+ls
+cd var/
+cd log
+ls
+sudo tail -f dmesg
+swp
+ssw
+pwd
+sudo apt update && install tree
+ls
+ls -l
+sudo apt install tree
+ls
+tree carpeta_compartida/
+mkdir carpetas
+cd carpetas
+mkdir sub1 sub2 sub3
+ls
+tree carpetas
+cd ..
+tree carpetas
+mkdir -p clase4/{mama,padre}/hijo{1..5}
+tree clase4/
+mkdir -p clase4bis/{mama/hijo{1..5},papa{perro{1..5}}}
+tree clase4bis/
+rm -r clase4bis/
+ls
+mkdir -p clase4bis/{mama/hijo{1..5},papa{perro,hijo{1..5}}}
+tree clase4bis/
+rm -r clase4bis/
+mkdir -p clase4bis/{mama/hijo{1..5},papa/{perro,hijo{1..5}}}
+tree clase4bis/
+cd clase4
+cd
+rm -r clase4
+mkdir -p clase4/{{mama,papa}}/hijo{1..5},papa/perro}
+tree clase4
+rm -r clase 4
+rm -r clase4
+mkdir -p clase4/{{mama,papa}/hijo{1..5},papa/perro}
+tree clase4
+vagrant halt
+ssh-keygen
+cat ~/.ssh/id_ed25519.pub
+ssh-keygen -t ed25519ssh-keygen -t ed25519sssssad
+ssd
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+ls -la
+cat id_rsa.pub
+cd .ssh
+ls -la
+cat id_rsa.pub
+sudo apt install git
+git --version
+ssh -T git@github.com
+cd -
+cd .
+pwd
+ls
+git clone git@github.com:Lucas-Allende/TP_AySO.git
+git status
+ls
+cp README TP_AySO
+cd TP_AySO/
+ls -la
+git status
+git add README
+git status
+git commit -m "comentario"
+git push origin main
+git status
+git add .
+git status
+git confir --global user.name "Lucas"
+git config --global user.name "Lucas"
+git config --global user.email "lucas40131@gmail.com"
+git commit -m "comentario"
+git push origin main
+cd ..
+pwd
+ls
+ls -l
+cd TP_AySO/
+cd .
+cd ..
+cd repogit
+ls
+git clone git@github.com:Lucas-Allende/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+ls
+cat/etc/os-release
+cat README
+cd ..
+ls
+cd UTN-FRA_SO_onBording/
+ls
+ls -l
+cd ..
+ls
+cd TP_AySO/
+cd .
+cd ..
+vagrant halt
+ls
+cd TP_AySO/
+cd ..
+cd repogit/
+cd TP_AySO/
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+echo"Usuario=$(whoami)">datos_usuario.txt
+echo "Usuario=$(whoami)">datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git status
+git commit -m "add archivo datos usario"
+git status
+git push
+ls
+grip info
+ls
+cd carpeta
+cd carpetas
+ls
+cd ..
+cd carpeta_compartida/
+ls
+cd ..
+ls
+ls -l
+ls -la
+cd /
+ls
+find cpuinfo
+cd ..
+ls
+cd ..
+pwd
+ls
+cd //
+ls
+vagrant halt
+ls
+cd repogit/
+cd TP_AySO/
+ls
+cat << FIN >> README.md 
+aLUMNO: Lucas Allende
+Division: 117
+Turno: Mañana
+FIN
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: AÑADIENDO Readme y datos de usuario"
+gis status
+git status
+git push
+mkdir -p  materias/{materia1,materia2}/uni{1,2,3}
+ls
+cat materias
+cd materias
+ls
+cd materia1
+ls
+cd .
+cd ..
+ls
+cd materias
+ls
+cd ..
+tree materias/
+echo 'mkdir -p materias/{materia1,materia2}/uni{1,2,3}' > script_dir.sh
+ls
+git status
+chmod +x script_dir.sh
+ls
+git add .
+git commit -m "ADD: añadiendo script"
+git push
+history -a
+cp ~/.bash_history ./Historial_comandos_Allende.txt
